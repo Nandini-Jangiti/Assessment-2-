@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="registrationForm">
+            <h2> Register here</h2>
+            <div class="input-row">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-row">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" required><br>
+            </div>
+
+            <div class="input-row">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" required><br>
+            </div>
+            <div class="input-row">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required><br>
+            </div>
+
+
+            <div class="gendertype">
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+
+            </div>
+
+            
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" onkeyup="check();" required>
+                <span id="strength-badge" class="password-strength"></span>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" onkeyup="check();" required>
+               
+            </div>
+
+
+            <button type="submit">Register</button>
+            <div class="hreftext">
+                Already have an account? <a href="login.html">Login here</a>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="Registration.js"></script>
+</body>
+
+</html>
