@@ -1,6 +1,6 @@
 # Assessment-2-
 
-Registration page
+--Registration page
 Registration field should satisfy below
 1.	Username - Text field
 2.	First name, Last name - Text field
@@ -9,11 +9,13 @@ Registration field should satisfy below
 5.	Password, Confirm Password - Both hidden(*****) text fields
 6.	Should have validation that password & confirm password should match
 7.	Once submit, should save data to local storage & redirect to profile page
-Profile Page
+   
+--Profile Page
 1.	Should retrieve the data from local storage and display in the UI
 2.	Profile page should display first name, last name, DOB, Gender
 3.	Profile page should be read-only.
-Login page
+   
+--Login page
 Should have 2 fields - username and password
 Password field should be hidden
 Till user hasn’t filled both fields, submit button should be disabled
